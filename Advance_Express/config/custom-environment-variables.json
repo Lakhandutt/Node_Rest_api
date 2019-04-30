@@ -1,0 +1,8 @@
+{
+    "mail":{
+        "password":"app_password"
+    }
+}
+//mapping of configuration setting to environment var 
+//cmd for env var set app_password=12345
+//so that password can read from enironment variables not config file

@@ -1,0 +1,6 @@
+{
+    "name":"my Expess development app",
+    "mail":{
+        "host":"dev-mail-server"
+    }
+}
