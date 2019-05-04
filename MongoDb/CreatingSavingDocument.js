@@ -48,7 +48,7 @@ async function createCourse() {
     });
     //async operation to save that return promise so we use async await
     //result is the object return by mongodb after saving document in collection
-    const result = await course.save()
+    const result1 = await course.save()
     const result2 = await course2.save()
     console.log(result1);
     console.log(result2);
