@@ -54,14 +54,14 @@ async function updateCourseDirectly(id) {
     //return updated object also
     const course = await Course.findOneAndUpdate({ _id: id }, {
         $set: {
-            author: "amit again",
+            author: "amit thakur returned",
             isPublished: false
         }
-    },{ new: true });
+    },{ new: true }); //new=true used to getting updated object without
+                        //new it returns old object not updated
 
     console.log(course);
 
 }
 
 updateCourseDirectly('5ccead9190ea991810e4ac80');
-
